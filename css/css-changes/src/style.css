@@ -20,34 +20,3 @@ body {
   background-color: var(--light);
   color: var(--dark);
 }
-
-.container {
-  border: 10px solid var(--dark);
-  height: 80%;
-  width: 80%;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  /* align-content: space-around; */
-  align-items: flex-start;
-  gap: 1rem;
-  /* flex-wrap: wrap; */
-}
-
-.item {
-  border-radius: 10px;
-  border: 10px solid var(--accent);
-  padding: 1rem;
-  text-align: center;
-}
-
-.item1 {
-  /* flex-grow: 1; */
-  flex: 1;
-  /* align-self: flex-start; */
-}
-
-.item3 {
-  /* order: -1 */
-}
